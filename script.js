@@ -1,22 +1,22 @@
 // swiper
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
-  spaceBetween: 10,
+  spaceBetween: 15,
   breakpoints: {
     480: {
       slidesPerView: 1,
     },
     640: {
       slidesPerView: 2,
-      spaceBetween: 10,
+      spaceBetween: 15,
     },
     768: {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 15,
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 15,
     },
   },
 });

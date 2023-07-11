@@ -156,14 +156,14 @@ section {
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
 }
 
 .image-div img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
 }
 
 a {
@@ -221,7 +221,7 @@ a {
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     font-size: 1rem;
     gap: 10px;
 }
@@ -272,7 +272,7 @@ a {
     width: 30%;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    border-radius: 0.25rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,7 +363,7 @@ a {
     align-items: center;
     background-color: var(--light-gray);
     padding: 2rem;
-    border-radius: 0.25rem;
+    border-radius: 1rem;
 }
 
 .cert p {
@@ -452,7 +452,7 @@ a {
 .project-div {
     gap: 0px;
     background-color: var(--light-gray);
-    border-radius: 0.25rem;
+    border-radius: 1rem;
 }
 
 .bottom {
@@ -473,14 +473,12 @@ a {
     align-items: center;
     background-color: var(--bg-white);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    border-radius: 0.25rem;
+    border-radius: 1rem;
     padding: 1rem;
 }
 
 .project img {
     width: 100%;
-    height: 280px;
-    border-radius: 0.25rem;
 }
 
 .read {
@@ -527,7 +525,6 @@ a {
 
 .contact-left img {
     width: 100%;
-    height: 400px;
 }
 
 .contact-right {
@@ -544,7 +541,7 @@ form {
 .form-groups {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .contact-right input,
@@ -605,10 +602,6 @@ footer a {
         font-size: 30px;
         font-weight: 600px;
         text-align: center;
-    }
-
-    .swiper-slide {
-        border-radius: 1rem;
     }
 
     .experience-section {
